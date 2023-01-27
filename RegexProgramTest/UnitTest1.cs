@@ -45,5 +45,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_PHONENUMBER, REGEX_PHONENUMBER);
         }
+        [TestMethod]
+
+        public void PassWord_Rule1()
+        {
+            PasswordRule1 rule1 = new PasswordRule1();
+
+            string REGEX_PASSWORD = rule1.ToString();   
+
+            Assert.AreEqual(REGEX_PASSWORD, REGEX_PASSWORD);
+        }
     }
 }
