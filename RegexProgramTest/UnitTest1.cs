@@ -85,5 +85,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_PASSWORD4, REGEX_PASSWORD4);
         }
+        [TestMethod]
+
+        public void EmailSamples()
+        {
+            EmailSamples sample = new EmailSamples();
+
+            string REGEX_VALIDEMAIL2 = sample.ToString();
+
+            Assert.AreEqual(REGEX_VALIDEMAIL2, REGEX_VALIDEMAIL2);
+        }
     }
 }
