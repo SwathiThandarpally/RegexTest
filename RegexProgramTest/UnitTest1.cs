@@ -35,5 +35,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_VALIDEMAIL, REGEX_VALIDEMAIL);
         }
+        [TestMethod]
+
+        public void Predefined_MobileFormat()
+        {
+            MobileFormatUC_4 mobileFormat = new MobileFormatUC_4();
+
+            string REGEX_PHONENUMBER = mobileFormat.ToString();
+
+            Assert.AreEqual(REGEX_PHONENUMBER, REGEX_PHONENUMBER);
+        }
     }
 }
