@@ -15,5 +15,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_VALIDFIRSTNAME, REGEX_VALIDFIRSTNAME);
         }
+        [TestMethod]
+
+        public void ValidLastName()
+        {
+            ValidLastNameUC_2 validLastName = new ValidLastNameUC_2();
+
+            string REGEX_VALIDLASTNAME = validLastName.ToString();
+
+            Assert.AreEqual(REGEX_VALIDLASTNAME, REGEX_VALIDLASTNAME);
+        }
     }
 }
