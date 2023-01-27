@@ -55,5 +55,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_PASSWORD, REGEX_PASSWORD);
         }
+        [TestMethod]
+
+        public void PassWord_Rule_2()
+        {
+            PasswordRule2 rule2 = new PasswordRule2();
+
+            string REGEX_PASSWORD = rule2.ToString();
+
+            Assert.AreEqual(REGEX_PASSWORD, REGEX_PASSWORD);
+        }
     }
 }
