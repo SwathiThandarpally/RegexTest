@@ -25,5 +25,15 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_VALIDLASTNAME, REGEX_VALIDLASTNAME);
         }
+        [TestMethod]
+
+        public void ValidEmail()
+        {
+            ValidEmailUC_3 validEmail = new ValidEmailUC_3();
+
+            string REGEX_VALIDEMAIL = validEmail.ToString();
+
+            Assert.AreEqual(REGEX_VALIDEMAIL, REGEX_VALIDEMAIL);
+        }
     }
 }
