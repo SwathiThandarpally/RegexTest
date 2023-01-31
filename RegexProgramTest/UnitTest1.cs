@@ -95,5 +95,18 @@ namespace RegexProgramTest
 
             Assert.AreEqual(REGEX_VALIDEMAIL2, REGEX_VALIDEMAIL2);
         }
+        
+        //UC_10,11,12
+        [TestMethod]
+
+        public void CheckReflections()
+        {
+            Reflections reflections = new Reflections();
+
+            string CheckRegistration = reflections.ToString();
+
+            Assert.AreEqual(CheckReflections, CheckReflections);
+
+        }
     }
 }
